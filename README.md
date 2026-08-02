@@ -186,7 +186,7 @@ FINAL RESULT: ALL TESTS PASSED
 
 ## Example Waveform
 
-![Waveform](docs/Waveform.png)
+![Waveform](docs/Waveform.JPG)
 
 ---
 
