@@ -1,0 +1,179 @@
+vsim work.Taylor_Functions_Top_tb
+# vsim work.Taylor_Functions_Top_tb 
+# Start time: 19:49:52 on Aug 01,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.Taylor_Functions_Top_tb(fast)
+run -all
+# ==================================================
+# Final Taylor Functions Testbench
+# ==================================================
+# --------------------------------------------------
+# Function =           exp(x), Func = 00, x =                0, XBus = 0000
+# RBus = 10000 (65536), expected = 10000 (65536)
+# PASS
+# --------------------------------------------------
+# Function =           exp(x), Func = 00, x =           0.0625, XBus = 1000
+# RBus = 1107f (69759), expected = 1107f (69759)
+# PASS
+# --------------------------------------------------
+# Function =           exp(x), Func = 00, x =            0.125, XBus = 2000
+# RBus = 12211 (74257), expected = 12211 (74257)
+# PASS
+# --------------------------------------------------
+# Function =           exp(x), Func = 00, x =             0.25, XBus = 4000
+# RBus = 148b1 (84145), expected = 148b1 (84145)
+# PASS
+# --------------------------------------------------
+# Function =           exp(x), Func = 00, x =            0.375, XBus = 6000
+# RBus = 17474 (95348), expected = 17474 (95348)
+# PASS
+# --------------------------------------------------
+# Function =           exp(x), Func = 00, x =              0.5, XBus = 8000
+# RBus = 1a60c (108044), expected = 1a60c (108044)
+# PASS
+# --------------------------------------------------
+# Function =           exp(x), Func = 00, x =            0.625, XBus = a000
+# RBus = 1de3f (122431), expected = 1de3f (122431)
+# PASS
+# --------------------------------------------------
+# Function =           exp(x), Func = 00, x =             0.75, XBus = c000
+# RBus = 21dec (138732), expected = 21dec (138732)
+# PASS
+# --------------------------------------------------
+# Function =           exp(x), Func = 00, x =            0.875, XBus = e000
+# RBus = 26614 (157204), expected = 26614 (157204)
+# PASS
+# --------------------------------------------------
+# Function =           exp(x), Func = 00, x =              1.0, XBus = ffff
+# RBus = 2b7d6 (178134), expected = 2b7d6 (178134)
+# PASS
+# --------------------------------------------------
+# Function =           sin(x), Func = 01, x =                0, XBus = 0000
+# RBus = 00000 (0), expected = 00000 (0)
+# PASS
+# --------------------------------------------------
+# Function =           sin(x), Func = 01, x =           0.0625, XBus = 1000
+# RBus = 00ffe (4094), expected = 00ffe (4094)
+# PASS
+# --------------------------------------------------
+# Function =           sin(x), Func = 01, x =            0.125, XBus = 2000
+# RBus = 01feb (8171), expected = 01feb (8171)
+# PASS
+# --------------------------------------------------
+# Function =           sin(x), Func = 01, x =             0.25, XBus = 4000
+# RBus = 03f56 (16214), expected = 03f56 (16214)
+# PASS
+# --------------------------------------------------
+# Function =           sin(x), Func = 01, x =            0.375, XBus = 6000
+# RBus = 05dc4 (24004), expected = 05dc4 (24004)
+# PASS
+# --------------------------------------------------
+# Function =           sin(x), Func = 01, x =              0.5, XBus = 8000
+# RBus = 07abc (31420), expected = 07abc (31420)
+# PASS
+# --------------------------------------------------
+# Function =           sin(x), Func = 01, x =            0.625, XBus = a000
+# RBus = 095ca (38346), expected = 095ca (38346)
+# PASS
+# --------------------------------------------------
+# Function =           sin(x), Func = 01, x =             0.75, XBus = c000
+# RBus = 0ae80 (44672), expected = 0ae80 (44672)
+# PASS
+# --------------------------------------------------
+# Function =           sin(x), Func = 01, x =            0.875, XBus = e000
+# RBus = 0c47e (50302), expected = 0c47e (50302)
+# PASS
+# --------------------------------------------------
+# Function =           sin(x), Func = 01, x =              1.0, XBus = ffff
+# RBus = 0d76b (55147), expected = 0d76b (55147)
+# PASS
+# --------------------------------------------------
+# Function =           cos(x), Func = 10, x =                0, XBus = 0000
+# RBus = 10000 (65536), expected = 10000 (65536)
+# PASS
+# --------------------------------------------------
+# Function =           cos(x), Func = 10, x =           0.0625, XBus = 1000
+# RBus = 0ff81 (65409), expected = 0ff81 (65409)
+# PASS
+# --------------------------------------------------
+# Function =           cos(x), Func = 10, x =            0.125, XBus = 2000
+# RBus = 0fe01 (65025), expected = 0fe01 (65025)
+# PASS
+# --------------------------------------------------
+# Function =           cos(x), Func = 10, x =             0.25, XBus = 4000
+# RBus = 0f80b (63499), expected = 0f80b (63499)
+# PASS
+# --------------------------------------------------
+# Function =           cos(x), Func = 10, x =            0.375, XBus = 6000
+# RBus = 0ee36 (60982), expected = 0ee36 (60982)
+# PASS
+# --------------------------------------------------
+# Function =           cos(x), Func = 10, x =              0.5, XBus = 8000
+# RBus = 0e0aa (57514), expected = 0e0aa (57514)
+# PASS
+# --------------------------------------------------
+# Function =           cos(x), Func = 10, x =            0.625, XBus = a000
+# RBus = 0cf9c (53148), expected = 0cf9c (53148)
+# PASS
+# --------------------------------------------------
+# Function =           cos(x), Func = 10, x =             0.75, XBus = c000
+# RBus = 0bb50 (47952), expected = 0bb50 (47952)
+# PASS
+# --------------------------------------------------
+# Function =           cos(x), Func = 10, x =            0.875, XBus = e000
+# RBus = 0a419 (42009), expected = 0a419 (42009)
+# PASS
+# --------------------------------------------------
+# Function =           cos(x), Func = 10, x =              1.0, XBus = ffff
+# RBus = 08a53 (35411), expected = 08a53 (35411)
+# PASS
+# --------------------------------------------------
+# Function =          ln(1+x), Func = 11, x =                0, XBus = 0000
+# RBus = 00000 (0), expected = 00000 (0)
+# PASS
+# --------------------------------------------------
+# Function =          ln(1+x), Func = 11, x =           0.0625, XBus = 1000
+# RBus = 00f85 (3973), expected = 00f85 (3973)
+# PASS
+# --------------------------------------------------
+# Function =          ln(1+x), Func = 11, x =            0.125, XBus = 2000
+# RBus = 01e27 (7719), expected = 01e27 (7719)
+# PASS
+# --------------------------------------------------
+# Function =          ln(1+x), Func = 11, x =             0.25, XBus = 4000
+# RBus = 03920 (14624), expected = 03920 (14624)
+# PASS
+# --------------------------------------------------
+# Function =          ln(1+x), Func = 11, x =            0.375, XBus = 6000
+# RBus = 05185 (20869), expected = 05185 (20869)
+# PASS
+# --------------------------------------------------
+# Function =          ln(1+x), Func = 11, x =              0.5, XBus = 8000
+# RBus = 067d0 (26576), expected = 067d0 (26576)
+# PASS
+# --------------------------------------------------
+# Function =          ln(1+x), Func = 11, x =            0.625, XBus = a000
+# RBus = 07c6f (31855), expected = 07c6f (31855)
+# PASS
+# --------------------------------------------------
+# Function =          ln(1+x), Func = 11, x =             0.75, XBus = c000
+# RBus = 0901d (36893), expected = 0901d (36893)
+# PASS
+# --------------------------------------------------
+# Function =          ln(1+x), Func = 11, x =            0.875, XBus = e000
+# RBus = 0a4ac (42156), expected = 0a4ac (42156)
+# PASS
+# --------------------------------------------------
+# Function =          ln(1+x), Func = 11, x =              1.0, XBus = ffff
+# RBus = 0bede (48862), expected = 0bede (48862)
+# PASS
+# ==================================================
+# FINAL TEST SUMMARY
+# Passed tests = 40
+# Failed tests = 0
+# Total tests  = 40
+# FINAL RESULT: ALL TESTS PASSED
+# ==================================================
+# ** Note: $stop    : D:/I_do_know/Programs/Tools/Modelsim/examples/KNTU/DS_Taylor_Project/Taylor_Functions_Top_tb.v(197)
+#    Time: 12436 ns  Iteration: 0  Instance: /Taylor_Functions_Top_tb
+# Break at D:/I_do_know/Programs/Tools/Modelsim/examples/KNTU/DS_Taylor_Project/Taylor_Functions_Top_tb.v line 197
