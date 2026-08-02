@@ -1,0 +1,15 @@
+# ModelSim / QuestaSim
+work/
+transcript
+vsim.wlf
+modelsim.ini
+
+# Backup files
+*.bak
+*.log
+*.jou
+*.cr.mti
+
+# OS files
+.DS_Store
+Thumbs.db
