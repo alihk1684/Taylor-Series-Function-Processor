@@ -121,7 +121,7 @@ The datapath is composed of reusable hardware blocks:
 
 The same overall architecture is reused for all implemented Taylor series functions with function-specific LUT values and controller sequencing.
 
-![Datapath](docs/Datapath Diagram.jpg)
+![Datapath](docs/Datapath_Diagram.jpg)
 
 ---
 
@@ -183,8 +183,6 @@ FINAL RESULT: ALL TESTS PASSED
 
 ## Example Waveform
 
-> Insert a ModelSim waveform screenshot here.
-
 ![Waveform](docs/Waveform.png)
 
 ---
@@ -202,6 +200,4 @@ FINAL RESULT: ALL TESTS PASSED
 
 # Author
 
-Ali
-
-Electrical Engineering Student
+Ali Heidari
