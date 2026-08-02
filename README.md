@@ -83,7 +83,7 @@ Taylor-Series-Processor
 └── README.md
 ```
 
-![Datapath](docs/Finaltb_Transcript.txt)
+![Project Structure](docs/Project_Structure.JPG)
 
 ---
 
