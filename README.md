@@ -76,11 +76,14 @@ Taylor-Series-Processor
 ├── docs
 │   ├── Datapath_Diagram.jpg
 │   ├── Controllers.jpg
-│   ├── Waveform.png
-│   └── Project_Structure.jpg
+│   ├── Waveform.jpg
+│   ├── Project_Structure.jpg
+│   └── Finaltb_Transcript.txt
 │
 └── README.md
 ```
+
+![Datapath](docs/Finaltb_Transcript.txt)
 
 ---
 
