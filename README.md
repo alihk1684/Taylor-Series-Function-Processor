@@ -121,9 +121,7 @@ The datapath is composed of reusable hardware blocks:
 
 The same overall architecture is reused for all implemented Taylor series functions with function-specific LUT values and controller sequencing.
 
-> **Insert datapath diagram here**
-
-![Datapath](docs/Datapath_Diagram.jpg)
+![Datapath](docs/Datapath Diagram.jpg)
 
 ---
 
@@ -139,8 +137,6 @@ The controllers manage:
 - accumulation
 - iteration control
 - completion signaling
-
-> **Insert FSM diagram here**
 
 ![Controllers](docs/Controllers.jpg)
 
@@ -204,24 +200,8 @@ FINAL RESULT: ALL TESTS PASSED
 
 ---
 
-# Learning Outcomes
-
-This project demonstrates:
-
-- RTL hardware design
-- Modular hardware architecture
-- FSM controller implementation
-- Fixed-point arithmetic
-- Hierarchical Verilog design
-- Hardware verification using ModelSim
-- Reusable digital hardware design principles
-
----
-
 # Author
 
 Ali
 
 Electrical Engineering Student
-
-GitHub: *(Add your GitHub profile here)*
