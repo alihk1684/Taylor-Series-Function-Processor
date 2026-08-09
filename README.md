@@ -203,4 +203,11 @@ FINAL RESULT: ALL TESTS PASSED
 
 # Author
 
-Ali Heidari
+**Ali Heidari**  
+Electrical Engineering student.
+
+---
+
+## License
+
+This project is available under the MIT License.
